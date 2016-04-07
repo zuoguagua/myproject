@@ -1,61 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26" started-at="2016-04-07T07:56:58Z" finished-at="2016-04-07T07:56:58Z">
+  <suite name="Suite1" duration-ms="154" started-at="2016-04-09T01:59:34Z" finished-at="2016-04-09T01:59:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26" started-at="2016-04-07T07:56:58Z" finished-at="2016-04-07T07:56:58Z">
-      <class name="com.testng.TestngAnnotation">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.testng.TestngAnnotation@1e7a66b]" name="beforeSuite" is-config="true" duration-ms="29" started-at="2016-04-07T15:56:58Z" finished-at="2016-04-07T15:56:58Z">
+    <test name="test1" duration-ms="154" started-at="2016-04-09T01:59:34Z" finished-at="2016-04-09T01:59:34Z">
+      <class name="com.testng.ParamTestWithDataProvider2">
+        <test-method status="PASS" signature="testMethod(com.testng.Bean)[pri:0, instance:com.testng.ParamTestWithDataProvider2@5ae9a829]" name="testMethod" duration-ms="67" started-at="2016-04-09T09:59:34Z" data-provider="test1" finished-at="2016-04-09T09:59:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.testng.Bean@6093dd95]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.testng.TestngAnnotation@1e7a66b]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-04-07T15:56:58Z" finished-at="2016-04-07T15:56:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.testng.TestngAnnotation@1e7a66b]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-04-07T15:56:58Z" finished-at="2016-04-07T15:56:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testCase1()[pri:0, instance:com.testng.TestngAnnotation@1e7a66b]" name="testCase1" duration-ms="6" started-at="2016-04-07T15:56:58Z" finished-at="2016-04-07T15:56:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase1 -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testng.TestngAnnotation@1e7a66b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-04-07T15:56:58Z" finished-at="2016-04-07T15:56:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testng.TestngAnnotation@1e7a66b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-04-07T15:56:58Z" finished-at="2016-04-07T15:56:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testng.TestngAnnotation@1e7a66b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-04-07T15:56:58Z" finished-at="2016-04-07T15:56:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testCase2()[pri:0, instance:com.testng.TestngAnnotation@1e7a66b]" name="testCase2" duration-ms="1" started-at="2016-04-07T15:56:58Z" finished-at="2016-04-07T15:56:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase2 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testng.TestngAnnotation@1e7a66b]" name="afterMethod" is-config="true" duration-ms="1" started-at="2016-04-07T15:56:58Z" finished-at="2016-04-07T15:56:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.testng.TestngAnnotation@1e7a66b]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-04-07T15:56:58Z" finished-at="2016-04-07T15:56:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testng.TestngAnnotation@1e7a66b]" name="afterTest" is-config="true" duration-ms="1" started-at="2016-04-07T15:56:58Z" finished-at="2016-04-07T15:56:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.testng.TestngAnnotation@1e7a66b]" name="afterSuite" is-config="true" duration-ms="0" started-at="2016-04-07T15:56:58Z" finished-at="2016-04-07T15:56:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- com.testng.TestngAnnotation -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- testMethod -->
+      </class> <!-- com.testng.ParamTestWithDataProvider2 -->
+    </test> <!-- test1 -->
+  </suite> <!-- Suite1 -->
 </testng-results>

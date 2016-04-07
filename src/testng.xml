@@ -3,8 +3,34 @@
 
 <suite name="Suite1">
 	<test name="test1">
+		
+		<!-- <groups>
+			<define name="all">
+				<exclude name="functest"/>
+				<include name="checkintest"/>
+			</define>
+			<run>
+				<include name="all"/>
+			</run>
+		</groups> -->
+	
+		<!-- <groups>
+			<define name="all">
+				<include name="functest"/>
+				<include name="checkintest"/>
+			</define>
+			<run>
+				<include name="all"/>
+			</run>
+		</groups> -->
+		<!-- <groups>
+			<run>
+				<include name="functest" />
+			</run>
+		</groups> -->
+		<!-- <parameter name="myName" value="zuoqiang"/> -->
 		<classes>
-			<class name="TestEmployeeDetails" />
+			<class name="com.testng.ParamTestWithDataProvider2" />
 		</classes>
 	</test>
 </suite>

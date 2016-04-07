@@ -1,0 +1,618 @@
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Get connection for route {s}->https://10.166.15.160:443
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnectionOperator:Connecting to 10.166.15.160:443
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Connection org.apache.http.impl.conn.DefaultClientConnection@5d11346a closed
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Connection org.apache.http.impl.conn.DefaultClientConnection@5d11346a shut down
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@17211155
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Get connection for route {}->http://10.166.15.160:80
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnectionOperator:Connecting to 10.166.15.160:80
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestAddCookies:CookieSpec selected: default
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestAuthCache:Auth cache not set in the context
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestTargetAuthentication:Target auth state: UNCHALLENGED
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestProxyAuthentication:Proxy auth state: UNCHALLENGED
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultHttpClient:Attempt 1 to execute request
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Sending request: GET /api/hosts HTTP/1.1
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "GET /api/hosts HTTP/1.1[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "Username: admin@internal[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "Password: ovirt[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "Host: 10.166.15.160[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "Connection: Keep-Alive[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_71)[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.headers:>> GET /api/hosts HTTP/1.1
+2016-04-09-main--DEBUG-org.apache.http.headers:>> Username: admin@internal
+2016-04-09-main--DEBUG-org.apache.http.headers:>> Password: ovirt
+2016-04-09-main--DEBUG-org.apache.http.headers:>> Host: 10.166.15.160
+2016-04-09-main--DEBUG-org.apache.http.headers:>> Connection: Keep-Alive
+2016-04-09-main--DEBUG-org.apache.http.headers:>> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_71)
+2016-04-09-main--DEBUG-org.apache.http.wire: << "HTTP/1.1 302 Moved Temporarily[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Date: Sat, 09 Apr 2016 01:46:16 GMT[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Pragma: No-cache[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Cache-Control: no-cache[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Expires: Wed, 31 Dec 1969 19:00:00 EST[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Location: https://10.166.15.160/api/hosts[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Content-Length: 0[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Keep-Alive: timeout=5, max=100[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Connection: Keep-Alive[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Receiving response: HTTP/1.1 302 Moved Temporarily
+2016-04-09-main--DEBUG-org.apache.http.headers:<< HTTP/1.1 302 Moved Temporarily
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Date: Sat, 09 Apr 2016 01:46:16 GMT
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Pragma: No-cache
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Cache-Control: no-cache
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Expires: Wed, 31 Dec 1969 19:00:00 EST
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Location: https://10.166.15.160/api/hosts
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Content-Length: 0
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Keep-Alive: timeout=5, max=100
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Connection: Keep-Alive
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultHttpClient:Connection can be kept alive for 5000 MILLISECONDS
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultRedirectStrategy:Redirect requested to location 'https://10.166.15.160/api/hosts'
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultHttpClient:Resetting target auth state
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultHttpClient:Redirecting to 'https://10.166.15.160/api/hosts' via {s}->https://10.166.15.160:443
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@68c4039c
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Connection can be kept alive for 5000 MILLISECONDS
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Get connection for route {s}->https://10.166.15.160:443
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Connection 0.0.0.0:51128<->10.166.15.160:80 closed
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnectionOperator:Connecting to 10.166.15.160:443
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Connection org.apache.http.impl.conn.DefaultClientConnection@17776a8 closed
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Connection org.apache.http.impl.conn.DefaultClientConnection@17776a8 shut down
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2d127a61
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Get connection for route {s}->https://10.166.15.160:443
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnectionOperator:Connecting to 10.166.15.160:443
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Connection org.apache.http.impl.conn.DefaultClientConnection@5d11346a closed
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Connection org.apache.http.impl.conn.DefaultClientConnection@5d11346a shut down
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@17211155
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Get connection for route {s}->https://10.166.15.160:443
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnectionOperator:Connecting to 10.166.15.160:443
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Connection org.apache.http.impl.conn.DefaultClientConnection@5d11346a closed
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Connection org.apache.http.impl.conn.DefaultClientConnection@5d11346a shut down
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@17211155
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Get connection for route {}->http://10.166.15.163:80
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnectionOperator:Connecting to 10.166.15.163:80
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestAddCookies:CookieSpec selected: default
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestAuthCache:Auth cache not set in the context
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestTargetAuthentication:Target auth state: UNCHALLENGED
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestProxyAuthentication:Proxy auth state: UNCHALLENGED
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultHttpClient:Attempt 1 to execute request
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Sending request: GET / HTTP/1.1
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "GET / HTTP/1.1[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "Host: 10.166.15.163[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "Connection: Keep-Alive[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_71)[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.headers:>> GET / HTTP/1.1
+2016-04-09-main--DEBUG-org.apache.http.headers:>> Host: 10.166.15.163
+2016-04-09-main--DEBUG-org.apache.http.headers:>> Connection: Keep-Alive
+2016-04-09-main--DEBUG-org.apache.http.headers:>> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_71)
+2016-04-09-main--DEBUG-org.apache.http.wire: << "HTTP/1.1 403 Forbidden[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Date: Sat, 09 Apr 2016 03:01:20 GMT[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Server: Apache/2.2.15 (CentOS)[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Accept-Ranges: bytes[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Content-Length: 4961[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Connection: close[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Receiving response: HTTP/1.1 403 Forbidden
+2016-04-09-main--DEBUG-org.apache.http.headers:<< HTTP/1.1 403 Forbidden
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Date: Sat, 09 Apr 2016 03:01:20 GMT
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Server: Apache/2.2.15 (CentOS)
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Accept-Ranges: bytes
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Content-Length: 4961
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Connection: close
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Content-Type: text/html; charset=UTF-8
+2016-04-09-main--DEBUG-org.apache.http.wire: << "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9]<head>[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9]<title>Apache HTTP Server Test Page powered by CentOS</title>[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9]<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9]<style type="text/css">[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9]body {[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]background-color: #fff;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]color: #000;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]font-size: 0.9em;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]font-family: sans-serif,helvetica;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]margin: 0;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]padding: 0;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9]}[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9]:link {[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]color: #0000FF;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9]}[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9]:visited {[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]color: #0000FF;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9]}[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9]a:hover {[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]color: #3399FF;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9]}[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9]h1 {[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]text-align: center;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]margin: 0;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]padding: 0.6em 2em 0.4em;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]background-color: #3399FF;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]color: #ffffff;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]font-weight: normal;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]font-size: 1.75em;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]border-bottom: 2px solid #000;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9]}[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9]h1 strong {[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]font-weight: bold;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9]}[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9]h2 {[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]font-size: 1.1em;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]font-weight: bold;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9]}[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9].content {[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]padding: 1em 5em;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9]}[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9].content-columns {[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]/* Setting relative positioning allows for [\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]absolute positioning for sub-classes */[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]position: relative;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]padding-top: 1em;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9]}[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9].content-column-left {[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]/* Value for IE/Win; will be overwritten for other browsers */[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]width: 47%;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]padding-right: 3%;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]float: left;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]padding-bottom: 2em;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9]}[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9].content-column-right {[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]/* Values for IE/Win; will be overwritten for other browsers */[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]width: 47%;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]padding-left: 3%;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]float: left;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]padding-bottom: 2em;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9]}[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9].content-columns>.content-column-left, .content-columns>.content-column-right {[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]/* Non-IE/Win */[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9]}[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9]img {[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]border: 2px solid #fff;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]padding: 2px;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]margin: 2px;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9]}[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9]a:hover img {[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]border: 2px solid #3399FF;[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9]}[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9]</style>[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9]</head>[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9]<body>[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9]<h1>Apache 2 Test Page<br><font size="-1"><strong>powered by</font> CentOS</strong></h1>[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9]<div class="content">[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9]<div class="content-middle">[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]<p>This page is used to test the proper operation of the Apache HTTP server after it has been installed. If you can read this page it means that the Apache HTTP server installed at this site is working properly.</p>[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9]</div>[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "<hr />[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9]<div class="content-columns">[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]<div class="content-column-left">[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9][0x9]<h2>If you are a member of the general public:</h2>[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9][0x9]<p>The fact that you are seeing this page indicates that the website you just visited is either experiencing problems or is undergoing routine maintenance.</p>[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9][0x9]<p>If you would like to let the administrators of this website know that you've seen this page instead of the page you expected, you should send them e-mail. In general, mail sent to the name "webmaster" and directed to the website's domain should reach the appropriate person.</p>[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9][0x9]<p>For example, if you experienced problems while visiting www.example.com, you should send e-mail to "webmaster@example.com".</p>[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]</div>[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]<div class="content-column-right">[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9][0x9]<h2>If you are the website administrator:</h2>[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9][0x9]<p>You may now add content to the directory <tt>/var/www/html/</tt>. Note that until you do so, people visiting your website will see this page and not your content. To prevent this page from ever being used, follow the instructions in the file <tt>/etc/httpd/conf.d/welcome.conf</tt>.</p>[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9][0x9][0x9]<p>You are free to use the images below on Apache and CentOS Linux powered HTTP servers.  Thanks for using Apache and CentOS!</p>[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9][0x9][0x9]<p><a href="http://httpd.apache.org/"><img src="/icons/apache_pb.gif" alt="[ Powered by Apache ]"/></a> <a href="http://www.centos.org/"><img src="/icons/poweredby.png" alt="[ Powered by CentOS Linux ]" width="88" height="31" /></a></p>[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9][0x9]</div>[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9][0x9]</div>[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "                </div>[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "                <div class="content">[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "<div class="content-middle"><h2>About CentOS:</h2><b>The Community ENTerprise Operating System</b> (CentOS) Linux is a community-supported enterprise distribution derived from sources freely provided to the public by Red Hat. As such, CentOS Linux aims to be functionally compatible with Red Hat Enterprise Linux. The CentOS Project is the organization that builds CentOS. We mainly change packages to remove upstream vendor branding and artwork.</p> <p>For information on CentOS please visit the <a href="http://www.centos.org/">CentOS website</a>.</p>[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "<p><h2>Note:</h2><p>CentOS is an Operating System and it is used to power this website; however, the webserver is owned by the domain owner and not the CentOS Project.  <b>If you have issues with the content of this site, contact the owner of the domain, not the CentOS Project.</b> <p>Unless this server is on the <b>centos.org</b> domain, the CentOS Project doesn't have anything to do with the content on this webserver or any e-mails that directed you to this site.</p> <p>For example, if this website is www.example.com, you would find the owner of the example.com domain at the following WHOIS server:</p> <p><a href="http://www.internic.net/whois.html">http://www.internic.net/whois.html</a></p>[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "                        </div>[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[0x9][0x9]</div>[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "</body>[\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "</html>[\n]"
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@59f99ea
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Connection 0.0.0.0:52480<->10.166.15.163:80 shut down
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Get connection for route {}->http://10.166.15.160:80
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnectionOperator:Connecting to 10.166.15.160:80
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestAddCookies:CookieSpec selected: default
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestAuthCache:Auth cache not set in the context
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestTargetAuthentication:Target auth state: UNCHALLENGED
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestProxyAuthentication:Proxy auth state: UNCHALLENGED
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultHttpClient:Attempt 1 to execute request
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Sending request: GET /api/hosts HTTP/1.1
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "GET /api/hosts HTTP/1.1[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "Host: 10.166.15.160[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "Connection: Keep-Alive[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_71)[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.headers:>> GET /api/hosts HTTP/1.1
+2016-04-09-main--DEBUG-org.apache.http.headers:>> Host: 10.166.15.160
+2016-04-09-main--DEBUG-org.apache.http.headers:>> Connection: Keep-Alive
+2016-04-09-main--DEBUG-org.apache.http.headers:>> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_71)
+2016-04-09-main--DEBUG-org.apache.http.wire: << "HTTP/1.1 302 Moved Temporarily[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Date: Sat, 09 Apr 2016 03:24:36 GMT[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Pragma: No-cache[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Cache-Control: no-cache[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Expires: Wed, 31 Dec 1969 19:00:00 EST[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Location: https://10.166.15.160/api/hosts[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Content-Length: 0[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Keep-Alive: timeout=5, max=100[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Connection: Keep-Alive[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Receiving response: HTTP/1.1 302 Moved Temporarily
+2016-04-09-main--DEBUG-org.apache.http.headers:<< HTTP/1.1 302 Moved Temporarily
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Date: Sat, 09 Apr 2016 03:24:36 GMT
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Pragma: No-cache
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Cache-Control: no-cache
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Expires: Wed, 31 Dec 1969 19:00:00 EST
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Location: https://10.166.15.160/api/hosts
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Content-Length: 0
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Keep-Alive: timeout=5, max=100
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Connection: Keep-Alive
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultHttpClient:Connection can be kept alive for 5000 MILLISECONDS
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultRedirectStrategy:Redirect requested to location 'https://10.166.15.160/api/hosts'
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultHttpClient:Resetting target auth state
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultHttpClient:Redirecting to 'https://10.166.15.160/api/hosts' via {s}->https://10.166.15.160:443
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@68c4039c
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Connection can be kept alive for 5000 MILLISECONDS
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Get connection for route {s}->https://10.166.15.160:443
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Connection 0.0.0.0:53264<->10.166.15.160:80 closed
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnectionOperator:Connecting to 10.166.15.160:443
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Connection org.apache.http.impl.conn.DefaultClientConnection@17776a8 closed
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Connection org.apache.http.impl.conn.DefaultClientConnection@17776a8 shut down
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2d127a61
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Get connection for route {}->http://10.166.15.160:80
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnectionOperator:Connecting to 10.166.15.160:80
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestAddCookies:CookieSpec selected: default
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestAuthCache:Auth cache not set in the context
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestTargetAuthentication:Target auth state: UNCHALLENGED
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestProxyAuthentication:Proxy auth state: UNCHALLENGED
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultHttpClient:Attempt 1 to execute request
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Sending request: GET /api/hosts HTTP/1.1
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "GET /api/hosts HTTP/1.1[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "Host: 10.166.15.160[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "Connection: Keep-Alive[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_71)[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.headers:>> GET /api/hosts HTTP/1.1
+2016-04-09-main--DEBUG-org.apache.http.headers:>> Host: 10.166.15.160
+2016-04-09-main--DEBUG-org.apache.http.headers:>> Connection: Keep-Alive
+2016-04-09-main--DEBUG-org.apache.http.headers:>> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_71)
+2016-04-09-main--DEBUG-org.apache.http.wire: << "HTTP/1.1 302 Moved Temporarily[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Date: Sat, 09 Apr 2016 03:35:46 GMT[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Pragma: No-cache[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Cache-Control: no-cache[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Expires: Wed, 31 Dec 1969 19:00:00 EST[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Location: https://10.166.15.160/api/hosts[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Content-Length: 0[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Keep-Alive: timeout=5, max=100[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Connection: Keep-Alive[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Receiving response: HTTP/1.1 302 Moved Temporarily
+2016-04-09-main--DEBUG-org.apache.http.headers:<< HTTP/1.1 302 Moved Temporarily
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Date: Sat, 09 Apr 2016 03:35:46 GMT
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Pragma: No-cache
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Cache-Control: no-cache
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Expires: Wed, 31 Dec 1969 19:00:00 EST
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Location: https://10.166.15.160/api/hosts
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Content-Length: 0
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Keep-Alive: timeout=5, max=100
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Connection: Keep-Alive
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultHttpClient:Connection can be kept alive for 5000 MILLISECONDS
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultRedirectStrategy:Redirect requested to location 'https://10.166.15.160/api/hosts'
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultHttpClient:Resetting target auth state
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultHttpClient:Redirecting to 'https://10.166.15.160/api/hosts' via {s}->https://10.166.15.160:443
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@68c4039c
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Connection can be kept alive for 5000 MILLISECONDS
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Get connection for route {s}->https://10.166.15.160:443
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Connection 0.0.0.0:53795<->10.166.15.160:80 closed
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnectionOperator:Connecting to 10.166.15.160:443
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Connection org.apache.http.impl.conn.DefaultClientConnection@11e21d0e closed
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Connection org.apache.http.impl.conn.DefaultClientConnection@11e21d0e shut down
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1dd02175
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Get connection for route {}->http://10.166.15.160:80
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnectionOperator:Connecting to 10.166.15.160:80
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestAddCookies:CookieSpec selected: default
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestAuthCache:Auth cache not set in the context
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestTargetAuthentication:Target auth state: UNCHALLENGED
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestProxyAuthentication:Proxy auth state: UNCHALLENGED
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultHttpClient:Attempt 1 to execute request
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Sending request: GET /api/hosts HTTP/1.1
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "GET /api/hosts HTTP/1.1[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "Host: 10.166.15.160[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "Connection: Keep-Alive[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_71)[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.headers:>> GET /api/hosts HTTP/1.1
+2016-04-09-main--DEBUG-org.apache.http.headers:>> Host: 10.166.15.160
+2016-04-09-main--DEBUG-org.apache.http.headers:>> Connection: Keep-Alive
+2016-04-09-main--DEBUG-org.apache.http.headers:>> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_71)
+2016-04-09-main--DEBUG-org.apache.http.wire: << "HTTP/1.1 302 Moved Temporarily[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Date: Sat, 09 Apr 2016 03:37:16 GMT[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Pragma: No-cache[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Cache-Control: no-cache[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Expires: Wed, 31 Dec 1969 19:00:00 EST[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Location: https://10.166.15.160/api/hosts[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Content-Length: 0[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Keep-Alive: timeout=5, max=100[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Connection: Keep-Alive[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Receiving response: HTTP/1.1 302 Moved Temporarily
+2016-04-09-main--DEBUG-org.apache.http.headers:<< HTTP/1.1 302 Moved Temporarily
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Date: Sat, 09 Apr 2016 03:37:16 GMT
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Pragma: No-cache
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Cache-Control: no-cache
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Expires: Wed, 31 Dec 1969 19:00:00 EST
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Location: https://10.166.15.160/api/hosts
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Content-Length: 0
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Keep-Alive: timeout=5, max=100
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Connection: Keep-Alive
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultHttpClient:Connection can be kept alive for 5000 MILLISECONDS
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultRedirectStrategy:Redirect requested to location 'https://10.166.15.160/api/hosts'
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultHttpClient:Resetting target auth state
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultHttpClient:Redirecting to 'https://10.166.15.160/api/hosts' via {s}->https://10.166.15.160:443
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@68c4039c
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Connection can be kept alive for 5000 MILLISECONDS
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Get connection for route {s}->https://10.166.15.160:443
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Connection 0.0.0.0:53900<->10.166.15.160:80 closed
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnectionOperator:Connecting to 10.166.15.160:443
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Connection org.apache.http.impl.conn.DefaultClientConnection@11e21d0e closed
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Connection org.apache.http.impl.conn.DefaultClientConnection@11e21d0e shut down
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1dd02175
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Get connection for route {}->http://10.166.15.160:80
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnectionOperator:Connecting to 10.166.15.160:80
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestAddCookies:CookieSpec selected: default
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestAuthCache:Auth cache not set in the context
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestTargetAuthentication:Target auth state: UNCHALLENGED
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestProxyAuthentication:Proxy auth state: UNCHALLENGED
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultHttpClient:Attempt 1 to execute request
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Sending request: GET /api/hosts HTTP/1.1
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "GET /api/hosts HTTP/1.1[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "Host: 10.166.15.160[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "Connection: Keep-Alive[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_71)[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.headers:>> GET /api/hosts HTTP/1.1
+2016-04-09-main--DEBUG-org.apache.http.headers:>> Host: 10.166.15.160
+2016-04-09-main--DEBUG-org.apache.http.headers:>> Connection: Keep-Alive
+2016-04-09-main--DEBUG-org.apache.http.headers:>> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_71)
+2016-04-09-main--DEBUG-org.apache.http.wire: << "HTTP/1.1 302 Moved Temporarily[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Date: Sat, 09 Apr 2016 03:40:05 GMT[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Pragma: No-cache[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Cache-Control: no-cache[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Expires: Wed, 31 Dec 1969 19:00:00 EST[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Location: https://10.166.15.160/api/hosts[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Content-Length: 0[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Keep-Alive: timeout=5, max=100[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Connection: Keep-Alive[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Receiving response: HTTP/1.1 302 Moved Temporarily
+2016-04-09-main--DEBUG-org.apache.http.headers:<< HTTP/1.1 302 Moved Temporarily
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Date: Sat, 09 Apr 2016 03:40:05 GMT
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Pragma: No-cache
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Cache-Control: no-cache
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Expires: Wed, 31 Dec 1969 19:00:00 EST
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Location: https://10.166.15.160/api/hosts
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Content-Length: 0
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Keep-Alive: timeout=5, max=100
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Connection: Keep-Alive
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultHttpClient:Connection can be kept alive for 5000 MILLISECONDS
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultRedirectStrategy:Redirect requested to location 'https://10.166.15.160/api/hosts'
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultHttpClient:Resetting target auth state
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultHttpClient:Redirecting to 'https://10.166.15.160/api/hosts' via {s}->https://10.166.15.160:443
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@68c4039c
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Connection can be kept alive for 5000 MILLISECONDS
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Get connection for route {s}->https://10.166.15.160:443
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Connection 0.0.0.0:53961<->10.166.15.160:80 closed
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnectionOperator:Connecting to 10.166.15.160:443
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Connection org.apache.http.impl.conn.DefaultClientConnection@11e21d0e closed
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Connection org.apache.http.impl.conn.DefaultClientConnection@11e21d0e shut down
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1dd02175
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Get connection for route {}->http://10.166.15.160:80
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnectionOperator:Connecting to 10.166.15.160:80
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestAddCookies:CookieSpec selected: default
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestAuthCache:Auth cache not set in the context
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestTargetAuthentication:Target auth state: UNCHALLENGED
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestProxyAuthentication:Proxy auth state: UNCHALLENGED
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultHttpClient:Attempt 1 to execute request
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Sending request: GET /api/hosts HTTP/1.1
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "GET /api/hosts HTTP/1.1[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "Host: 10.166.15.160[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "Connection: Keep-Alive[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_71)[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.headers:>> GET /api/hosts HTTP/1.1
+2016-04-09-main--DEBUG-org.apache.http.headers:>> Host: 10.166.15.160
+2016-04-09-main--DEBUG-org.apache.http.headers:>> Connection: Keep-Alive
+2016-04-09-main--DEBUG-org.apache.http.headers:>> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_71)
+2016-04-09-main--DEBUG-org.apache.http.wire: << "HTTP/1.1 302 Moved Temporarily[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Date: Sat, 09 Apr 2016 03:40:49 GMT[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Pragma: No-cache[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Cache-Control: no-cache[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Expires: Wed, 31 Dec 1969 19:00:00 EST[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Location: https://10.166.15.160/api/hosts[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Content-Length: 0[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Keep-Alive: timeout=5, max=100[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Connection: Keep-Alive[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Receiving response: HTTP/1.1 302 Moved Temporarily
+2016-04-09-main--DEBUG-org.apache.http.headers:<< HTTP/1.1 302 Moved Temporarily
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Date: Sat, 09 Apr 2016 03:40:49 GMT
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Pragma: No-cache
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Cache-Control: no-cache
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Expires: Wed, 31 Dec 1969 19:00:00 EST
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Location: https://10.166.15.160/api/hosts
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Content-Length: 0
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Keep-Alive: timeout=5, max=100
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Connection: Keep-Alive
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultHttpClient:Connection can be kept alive for 5000 MILLISECONDS
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultRedirectStrategy:Redirect requested to location 'https://10.166.15.160/api/hosts'
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultHttpClient:Resetting target auth state
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultHttpClient:Redirecting to 'https://10.166.15.160/api/hosts' via {s}->https://10.166.15.160:443
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@68c4039c
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Connection can be kept alive for 5000 MILLISECONDS
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Get connection for route {s}->https://10.166.15.160:443
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Connection 0.0.0.0:53969<->10.166.15.160:80 closed
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnectionOperator:Connecting to 10.166.15.160:443
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Connection org.apache.http.impl.conn.DefaultClientConnection@17776a8 closed
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Connection org.apache.http.impl.conn.DefaultClientConnection@17776a8 shut down
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2d127a61
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Get connection for route {}->http://10.166.15.160:80
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnectionOperator:Connecting to 10.166.15.160:80
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestAddCookies:CookieSpec selected: default
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestAuthCache:Auth cache not set in the context
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestTargetAuthentication:Target auth state: UNCHALLENGED
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestProxyAuthentication:Proxy auth state: UNCHALLENGED
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultHttpClient:Attempt 1 to execute request
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Sending request: GET /api/hosts HTTP/1.1
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "GET /api/hosts HTTP/1.1[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "Host: 10.166.15.160[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "Connection: Keep-Alive[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_71)[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: >> "[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.headers:>> GET /api/hosts HTTP/1.1
+2016-04-09-main--DEBUG-org.apache.http.headers:>> Host: 10.166.15.160
+2016-04-09-main--DEBUG-org.apache.http.headers:>> Connection: Keep-Alive
+2016-04-09-main--DEBUG-org.apache.http.headers:>> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_71)
+2016-04-09-main--DEBUG-org.apache.http.wire: << "HTTP/1.1 302 Moved Temporarily[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Date: Sat, 09 Apr 2016 08:21:11 GMT[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Pragma: No-cache[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Cache-Control: no-cache[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Expires: Wed, 31 Dec 1969 19:00:00 EST[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Location: https://10.166.15.160/api/hosts[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Content-Length: 0[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Keep-Alive: timeout=5, max=100[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "Connection: Keep-Alive[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire: << "[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Receiving response: HTTP/1.1 302 Moved Temporarily
+2016-04-09-main--DEBUG-org.apache.http.headers:<< HTTP/1.1 302 Moved Temporarily
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Date: Sat, 09 Apr 2016 08:21:11 GMT
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Pragma: No-cache
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Cache-Control: no-cache
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Expires: Wed, 31 Dec 1969 19:00:00 EST
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Location: https://10.166.15.160/api/hosts
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Content-Length: 0
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Keep-Alive: timeout=5, max=100
+2016-04-09-main--DEBUG-org.apache.http.headers:<< Connection: Keep-Alive
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultHttpClient:Connection can be kept alive for 5000 MILLISECONDS
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultRedirectStrategy:Redirect requested to location 'https://10.166.15.160/api/hosts'
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultHttpClient:Resetting target auth state
+2016-04-09-main--DEBUG-org.apache.http.impl.client.DefaultHttpClient:Redirecting to 'https://10.166.15.160/api/hosts' via {s}->https://10.166.15.160:443
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@68c4039c
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Connection can be kept alive for 5000 MILLISECONDS
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Get connection for route {s}->https://10.166.15.160:443
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Connection 0.0.0.0:58827<->10.166.15.160:80 closed
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnectionOperator:Connecting to 10.166.15.160:443
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Connection org.apache.http.impl.conn.DefaultClientConnection@17776a8 closed
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultClientConnection:Connection org.apache.http.impl.conn.DefaultClientConnection@17776a8 shut down
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.BasicClientConnectionManager:Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2d127a61
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestAddCookies:CookieSpec selected: default
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestAuthCache:Auth cache not set in the context
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.PoolingHttpClientConnectionManager:Connection request: [route: {s}->https://10.166.15.160:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.PoolingHttpClientConnectionManager:Connection leased: [id: 0][route: {s}->https://10.166.15.160:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-04-09-main--DEBUG-org.apache.http.impl.execchain.MainClientExec:Opening connection {s}->https://10.166.15.160:443
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultHttpClientConnectionOperator:Connecting to /10.166.15.160:443
+2016-04-09-main--DEBUG-org.apache.http.conn.ssl.SSLConnectionSocketFactory:Connecting socket to /10.166.15.160:443 with timeout 0
+2016-04-09-main--DEBUG-org.apache.http.conn.ssl.SSLConnectionSocketFactory:Enabled protocols: [TLSv1]
+2016-04-09-main--DEBUG-org.apache.http.conn.ssl.SSLConnectionSocketFactory:Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2016-04-09-main--DEBUG-org.apache.http.conn.ssl.SSLConnectionSocketFactory:Starting handshake
+2016-04-09-main--DEBUG-org.apache.http.conn.ssl.SSLConnectionSocketFactory:Secure session established
+2016-04-09-main--DEBUG-org.apache.http.conn.ssl.SSLConnectionSocketFactory: negotiated protocol: TLSv1
+2016-04-09-main--DEBUG-org.apache.http.conn.ssl.SSLConnectionSocketFactory: negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+2016-04-09-main--DEBUG-org.apache.http.conn.ssl.SSLConnectionSocketFactory: peer principal: CN=localhost.localdomain, O=localdomain, C=US
+2016-04-09-main--DEBUG-org.apache.http.conn.ssl.SSLConnectionSocketFactory: issuer principal: CN=localhost.localdomain.65652, O=localdomain, C=US
+2016-04-09-main--DEBUG-org.apache.http.conn.ssl.DefaultHostnameVerifier:Certificate for <10.166.15.160> doesn't match common name of the certificate subject: localhost.localdomain
+javax.net.ssl.SSLException: Certificate for <10.166.15.160> doesn't match common name of the certificate subject: localhost.localdomain
+	at org.apache.http.conn.ssl.DefaultHostnameVerifier.matchCN(DefaultHostnameVerifier.java:165)
+	at org.apache.http.conn.ssl.DefaultHostnameVerifier.verify(DefaultHostnameVerifier.java:120)
+	at org.apache.http.conn.ssl.DefaultHostnameVerifier.verify(DefaultHostnameVerifier.java:87)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.verifyHostname(SSLConnectionSocketFactory.java:461)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:395)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.inspur.util.HttpsUtil.send(HttpsUtil.java:121)
+	at com.inspur.util.HttpsUtil.main(HttpsUtil.java:136)
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultManagedHttpClientConnection:http-outgoing-0: Shutdown connection
+2016-04-09-main--DEBUG-org.apache.http.impl.execchain.MainClientExec:Connection discarded
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.PoolingHttpClientConnectionManager:Connection released: [id: 0][route: {s}->https://10.166.15.160:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestAddCookies:CookieSpec selected: default
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestAuthCache:Auth cache not set in the context
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.PoolingHttpClientConnectionManager:Connection request: [route: {}->http://10.166.15.160:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.PoolingHttpClientConnectionManager:Connection leased: [id: 0][route: {}->http://10.166.15.160:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-04-09-main--DEBUG-org.apache.http.impl.execchain.MainClientExec:Opening connection {}->http://10.166.15.160:80
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultHttpClientConnectionOperator:Connecting to /10.166.15.160:80
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultHttpClientConnectionOperator:Connection established 2.0.2.4:60196<->10.166.15.160:80
+2016-04-09-main--DEBUG-org.apache.http.impl.execchain.MainClientExec:Executing request POST /api/ HTTP/1.1
+2016-04-09-main--DEBUG-org.apache.http.impl.execchain.MainClientExec:Target auth state: UNCHALLENGED
+2016-04-09-main--DEBUG-org.apache.http.impl.execchain.MainClientExec:Proxy auth state: UNCHALLENGED
+2016-04-09-main--DEBUG-org.apache.http.headers:http-outgoing-0 >> POST /api/ HTTP/1.1
+2016-04-09-main--DEBUG-org.apache.http.headers:http-outgoing-0 >> Content-type: application/x-www-form-urlencoded
+2016-04-09-main--DEBUG-org.apache.http.headers:http-outgoing-0 >> User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)
+2016-04-09-main--DEBUG-org.apache.http.headers:http-outgoing-0 >> Content-Length: 0
+2016-04-09-main--DEBUG-org.apache.http.headers:http-outgoing-0 >> Host: 10.166.15.160
+2016-04-09-main--DEBUG-org.apache.http.headers:http-outgoing-0 >> Connection: Keep-Alive
+2016-04-09-main--DEBUG-org.apache.http.headers:http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2016-04-09-main--DEBUG-org.apache.http.wire:http-outgoing-0 >> "POST /api/ HTTP/1.1[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire:http-outgoing-0 >> "Content-type: application/x-www-form-urlencoded[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire:http-outgoing-0 >> "User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire:http-outgoing-0 >> "Content-Length: 0[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire:http-outgoing-0 >> "Host: 10.166.15.160[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire:http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire:http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire:http-outgoing-0 >> "[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire:http-outgoing-0 << "HTTP/1.1 302 Moved Temporarily[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire:http-outgoing-0 << "Date: Sat, 09 Apr 2016 09:15:07 GMT[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire:http-outgoing-0 << "Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire:http-outgoing-0 << "Location: https://10.166.15.160/api/[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire:http-outgoing-0 << "Content-Length: 0[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire:http-outgoing-0 << "Keep-Alive: timeout=5, max=100[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire:http-outgoing-0 << "Connection: Keep-Alive[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.wire:http-outgoing-0 << "[\r][\n]"
+2016-04-09-main--DEBUG-org.apache.http.headers:http-outgoing-0 << HTTP/1.1 302 Moved Temporarily
+2016-04-09-main--DEBUG-org.apache.http.headers:http-outgoing-0 << Date: Sat, 09 Apr 2016 09:15:07 GMT
+2016-04-09-main--DEBUG-org.apache.http.headers:http-outgoing-0 << Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips
+2016-04-09-main--DEBUG-org.apache.http.headers:http-outgoing-0 << Location: https://10.166.15.160/api/
+2016-04-09-main--DEBUG-org.apache.http.headers:http-outgoing-0 << Content-Length: 0
+2016-04-09-main--DEBUG-org.apache.http.headers:http-outgoing-0 << Keep-Alive: timeout=5, max=100
+2016-04-09-main--DEBUG-org.apache.http.headers:http-outgoing-0 << Connection: Keep-Alive
+2016-04-09-main--DEBUG-org.apache.http.impl.execchain.MainClientExec:Connection can be kept alive for 5000 MILLISECONDS
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.PoolingHttpClientConnectionManager:Connection [id: 0][route: {}->http://10.166.15.160:80] can be kept alive for 5.0 seconds
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.PoolingHttpClientConnectionManager:Connection released: [id: 0][route: {}->http://10.166.15.160:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestAddCookies:CookieSpec selected: default
+2016-04-09-main--DEBUG-org.apache.http.client.protocol.RequestAuthCache:Auth cache not set in the context
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.PoolingHttpClientConnectionManager:Connection request: [route: {s}->https://10.166.15.160:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.PoolingHttpClientConnectionManager:Connection leased: [id: 0][route: {s}->https://10.166.15.160:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-04-09-main--DEBUG-org.apache.http.impl.execchain.MainClientExec:Opening connection {s}->https://10.166.15.160:443
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultHttpClientConnectionOperator:Connecting to /10.166.15.160:443
+2016-04-09-main--DEBUG-org.apache.http.conn.ssl.SSLConnectionSocketFactory:Connecting socket to /10.166.15.160:443 with timeout 0
+2016-04-09-main--DEBUG-org.apache.http.conn.ssl.SSLConnectionSocketFactory:Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2016-04-09-main--DEBUG-org.apache.http.conn.ssl.SSLConnectionSocketFactory:Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2016-04-09-main--DEBUG-org.apache.http.conn.ssl.SSLConnectionSocketFactory:Starting handshake
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.DefaultManagedHttpClientConnection:http-outgoing-0: Shutdown connection
+2016-04-09-main--DEBUG-org.apache.http.impl.execchain.MainClientExec:Connection discarded
+2016-04-09-main--DEBUG-org.apache.http.impl.conn.PoolingHttpClientConnectionManager:Connection released: [id: 0][route: {s}->https://10.166.15.160:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]

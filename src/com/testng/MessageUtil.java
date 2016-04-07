@@ -7,9 +7,29 @@ public class MessageUtil {
 		this.message = message;
 	}
 	
+	
+	
 	public String printMessage(){
 		System.out.println(message);
-		
+		return message;
+	}
+	
+	public void printMessageException(){
+		System.out.println(message);
+		int a = 0;
+		int b = 1/a;
+	}
+	
+	public String salutationMessage(){
+		//message = "Hi"+message;
+		message = "tutorialspoint"+message;
+		System.out.println(message);
+		return message;
+	}
+	
+	public String exitMessage(){
+		message = "www."+message;
+		System.out.println(message);
 		return message;
 	}
 }

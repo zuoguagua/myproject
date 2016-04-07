@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+	<project name="Hello World Project" default="info">
+	<property name="sitename" value = "http://www.baidu.com" />
+	<target name ="info" description = "test">
+		<echo>Hello World - Welcome to Apache Ant!</echo>
+		<echo>Ant version ${ant.version} ;Ant home ${ant.home};ant basedir ${basedir}</echo>
+		<echo>sitename ${sitename}</echo>
+	</target>
+	</project>
