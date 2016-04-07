@@ -5,6 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import com.inspur.common.*;
+
 
 
 public class Hello {
@@ -15,19 +17,27 @@ public class Hello {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Hello");
-		WebDriver driver = new FirefoxDriver();
-		driver.get("http://www.baidu.com");
 		
-		driver.manage().window().maximize();
+		currentTimeMillis ct = new currentTimeMillis();
 		
-		WebElement txtbox = driver.findElement(By.name("wd"));
-		txtbox.sendKeys("Gelln");
-		txtbox.submit();
+		ct.getStsrt();
 		
-		WebElement btn = driver.findElement(By.id("su"));
-		btn.click();
+		/*
+		 * WebDriver driver = new FirefoxDriver();
+		 * driver.get("http://www.baidu.com");
 		
-		driver.close();
+			driver.manage().window().maximize();
+		
+			WebElement txtbox = driver.findElement(By.name("wd"));
+			txtbox.sendKeys("Gelln");
+			txtbox.submit();
+		
+			WebElement btn = driver.findElement(By.id("su"));
+			btn.click();
+		
+			driver.close();
+		 */
+		
 		
 		System.out.println("OK");
 	}
