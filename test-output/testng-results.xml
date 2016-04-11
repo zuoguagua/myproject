@@ -2,23 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="154" started-at="2016-04-09T01:59:34Z" finished-at="2016-04-09T01:59:34Z">
+  <suite name="Default suite" duration-ms="1850" started-at="2016-04-11T06:46:40Z" finished-at="2016-04-11T06:46:42Z">
     <groups>
     </groups>
-    <test name="test1" duration-ms="154" started-at="2016-04-09T01:59:34Z" finished-at="2016-04-09T01:59:34Z">
-      <class name="com.testng.ParamTestWithDataProvider2">
-        <test-method status="PASS" signature="testMethod(com.testng.Bean)[pri:0, instance:com.testng.ParamTestWithDataProvider2@5ae9a829]" name="testMethod" duration-ms="67" started-at="2016-04-09T09:59:34Z" data-provider="test1" finished-at="2016-04-09T09:59:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.testng.Bean@6093dd95]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="1850" started-at="2016-04-11T06:46:40Z" finished-at="2016-04-11T06:46:42Z">
+      <class name="org.ovirt.engine.autotest.atestng">
+        <test-method status="PASS" signature="testGetTags()[pri:0, instance:org.ovirt.engine.autotest.atestng@15f2bb7]" name="testGetTags" duration-ms="1836" started-at="2016-04-11T14:46:40Z" finished-at="2016-04-11T14:46:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMethod -->
-      </class> <!-- com.testng.ParamTestWithDataProvider2 -->
-    </test> <!-- test1 -->
-  </suite> <!-- Suite1 -->
+        </test-method> <!-- testGetTags -->
+      </class> <!-- org.ovirt.engine.autotest.atestng -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
