@@ -3369,3 +3369,967 @@
 2016-04-11-main--DEBUG-org.apache.http.wire: << "[\r][\n]"
 2016-04-11-main--DEBUG-org.apache.http.impl.conn.PoolingClientConnectionManager:Connection [id: 0][route: {s}->https://10.166.15.160:443] can be kept alive for 5000 MILLISECONDS
 2016-04-11-main--DEBUG-org.apache.http.impl.conn.PoolingClientConnectionManager:Connection released: [id: 0][route: {s}->https://10.166.15.160:443][total kept alive: 1; route allocated: 1 of 5; total allocated: 1 of 20]
+2016-04-11-main--INFO -org.quartz.impl.StdSchedulerFactory:Using default implementation for ThreadExecutor
+2016-04-11-main--INFO -org.quartz.simpl.SimpleThreadPool:Job execution threads will use class loader of thread: main
+2016-04-11-main--INFO -org.quartz.core.SchedulerSignalerImpl:Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-04-11-main--INFO -org.quartz.core.QuartzScheduler:Quartz Scheduler v.2.2.2 created.
+2016-04-11-main--INFO -org.quartz.simpl.RAMJobStore:RAMJobStore initialized.
+2016-04-11-main--INFO -org.quartz.core.QuartzScheduler:Scheduler meta-data: Quartz Scheduler (v2.2.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-11-main--INFO -org.quartz.impl.StdSchedulerFactory:Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-04-11-main--INFO -org.quartz.impl.StdSchedulerFactory:Quartz scheduler version: 2.2.2
+2016-04-11-main--INFO -org.quartz.core.QuartzScheduler:Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-1--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-2--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-3--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-4--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-5--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-6--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-7--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-main--INFO -org.quartz.impl.StdSchedulerFactory:Using default implementation for ThreadExecutor
+2016-04-11-main--INFO -org.quartz.simpl.SimpleThreadPool:Job execution threads will use class loader of thread: main
+2016-04-11-main--INFO -org.quartz.core.SchedulerSignalerImpl:Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-04-11-main--INFO -org.quartz.core.QuartzScheduler:Quartz Scheduler v.2.2.2 created.
+2016-04-11-main--INFO -org.quartz.simpl.RAMJobStore:RAMJobStore initialized.
+2016-04-11-main--INFO -org.quartz.core.QuartzScheduler:Scheduler meta-data: Quartz Scheduler (v2.2.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-11-main--INFO -org.quartz.impl.StdSchedulerFactory:Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-04-11-main--INFO -org.quartz.impl.StdSchedulerFactory:Quartz scheduler version: 2.2.2
+2016-04-11-main--INFO -org.quartz.core.QuartzScheduler:Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 0 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-1--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-2--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-3--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-4--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-5--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-6--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-7--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-8--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-9--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-10--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-1--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-2--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-3--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-4--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-5--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-6--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-7--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-main--INFO -org.quartz.impl.StdSchedulerFactory:Using default implementation for ThreadExecutor
+2016-04-11-main--INFO -org.quartz.simpl.SimpleThreadPool:Job execution threads will use class loader of thread: main
+2016-04-11-main--INFO -org.quartz.core.SchedulerSignalerImpl:Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-04-11-main--INFO -org.quartz.core.QuartzScheduler:Quartz Scheduler v.2.2.2 created.
+2016-04-11-main--INFO -org.quartz.simpl.RAMJobStore:RAMJobStore initialized.
+2016-04-11-main--INFO -org.quartz.core.QuartzScheduler:Scheduler meta-data: Quartz Scheduler (v2.2.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-11-main--INFO -org.quartz.impl.StdSchedulerFactory:Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-04-11-main--INFO -org.quartz.impl.StdSchedulerFactory:Quartz scheduler version: 2.2.2
+2016-04-11-main--INFO -org.quartz.core.QuartzScheduler:Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 0 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-1--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-1--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-2--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-2--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-3--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-3--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-4--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-4--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-5--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-5--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-6--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-6--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-7--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-7--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-8--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-8--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-9--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-9--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-10--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-10--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-1--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-1--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-2--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-2--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-3--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-3--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-4--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-4--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-5--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-5--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-6--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-6--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-7--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-7--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-8--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-8--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-9--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-9--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-10--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-10--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-1--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-1--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-2--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-2--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-3--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-3--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-4--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-4--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-5--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-5--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-6--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-6--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-7--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-7--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-8--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-8--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-9--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-9--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-10--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-10--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-1--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-1--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-2--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-2--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-3--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-3--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-4--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-4--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-5--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-5--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-6--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-6--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-7--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-7--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-8--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-8--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-9--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-9--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-10--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-10--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-1--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-1--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-2--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-2--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-3--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-3--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-4--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-4--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-5--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-5--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-6--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-6--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-7--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-7--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-8--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-8--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-9--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-9--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-10--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-10--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-1--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-1--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-2--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-2--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-3--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-3--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-4--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-4--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-5--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-5--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-6--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-6--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-7--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-7--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-8--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-8--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-9--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-9--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-10--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-10--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-1--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-1--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-2--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-2--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-3--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-3--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-4--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-4--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-5--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-5--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-6--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-6--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-7--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-7--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-8--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-8--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-9--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-9--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-10--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-10--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-1--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-1--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-2--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-2--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-3--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-3--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-4--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-4--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-5--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-5--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-6--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-6--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-7--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-7--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-8--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-8--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-9--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-9--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-10--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-10--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-1--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-1--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-2--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-2--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-3--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-3--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-4--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-4--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-5--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-5--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-6--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-6--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-7--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-7--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-main--INFO -org.quartz.impl.StdSchedulerFactory:Using default implementation for ThreadExecutor
+2016-04-11-main--INFO -org.quartz.simpl.SimpleThreadPool:Job execution threads will use class loader of thread: main
+2016-04-11-main--INFO -org.quartz.core.SchedulerSignalerImpl:Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-04-11-main--INFO -org.quartz.core.QuartzScheduler:Quartz Scheduler v.2.2.2 created.
+2016-04-11-main--INFO -org.quartz.simpl.RAMJobStore:RAMJobStore initialized.
+2016-04-11-main--INFO -org.quartz.core.QuartzScheduler:Scheduler meta-data: Quartz Scheduler (v2.2.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-11-main--INFO -org.quartz.impl.StdSchedulerFactory:Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-04-11-main--INFO -org.quartz.impl.StdSchedulerFactory:Quartz scheduler version: 2.2.2
+2016-04-11-main--INFO -org.quartz.core.QuartzScheduler:Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-8--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-8--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.jobA', class=com.inspur.quartz.JobA
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.jobB', class=com.inspur.quartz.JobB
+2016-04-11-DefaultQuartzScheduler_Worker-2--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.jobB
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.jobC', class=com.inspur.quartz.JobC
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-1--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.jobA
+2016-04-11-DefaultQuartzScheduler_Worker-3--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.jobC
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-9--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.jobA', class=com.inspur.quartz.JobA
+2016-04-11-DefaultQuartzScheduler_Worker-4--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.jobA
+2016-04-11-DefaultQuartzScheduler_Worker-9--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.jobB', class=com.inspur.quartz.JobB
+2016-04-11-DefaultQuartzScheduler_Worker-5--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.jobB
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.jobC', class=com.inspur.quartz.JobC
+2016-04-11-DefaultQuartzScheduler_Worker-6--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.jobC
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.jobA', class=com.inspur.quartz.JobA
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.jobB', class=com.inspur.quartz.JobB
+2016-04-11-DefaultQuartzScheduler_Worker-8--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.jobB
+2016-04-11-DefaultQuartzScheduler_Worker-7--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.jobA
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-10--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-10--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.jobC', class=com.inspur.quartz.JobC
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-9--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.jobC
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.jobA', class=com.inspur.quartz.JobA
+2016-04-11-DefaultQuartzScheduler_Worker-10--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.jobA
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-1--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-1--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.jobB', class=com.inspur.quartz.JobB
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.jobC', class=com.inspur.quartz.JobC
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-1--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.jobC
+2016-04-11-DefaultQuartzScheduler_Worker-2--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.jobB
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-2--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-2--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.jobA', class=com.inspur.quartz.JobA
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-3--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.jobA
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.jobB', class=com.inspur.quartz.JobB
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-4--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.jobB
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.jobC', class=com.inspur.quartz.JobC
+2016-04-11-DefaultQuartzScheduler_Worker-5--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.jobC
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.jobA', class=com.inspur.quartz.JobA
+2016-04-11-DefaultQuartzScheduler_Worker-3--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-3--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_Worker-6--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.jobA
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.jobB', class=com.inspur.quartz.JobB
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.jobC', class=com.inspur.quartz.JobC
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-8--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.jobB
+2016-04-11-DefaultQuartzScheduler_Worker-7--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.jobC
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-4--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-4--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_Worker-5--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-5--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.simpl.PropertySettingJobFactory:Producing instance of Job 'group1.dummyJobName', class=com.inspur.quartz.HelloJob
+2016-04-11-DefaultQuartzScheduler_QuartzSchedulerThread--DEBUG-org.quartz.core.QuartzSchedulerThread:batch acquisition of 1 triggers
+2016-04-11-DefaultQuartzScheduler_Worker-6--DEBUG-org.quartz.core.JobRunShell:Calling execute on job group1.dummyJobName
+2016-04-11-DefaultQuartzScheduler_Worker-6--INFO -org.quartz.core.JobRunShell:Job group1.dummyJobName threw a JobExecutionException: 
+org.quartz.JobExecutionException: Testing Exception
+	at com.inspur.quartz.HelloJob.execute(HelloJob.java:13)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)

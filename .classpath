@@ -15,5 +15,10 @@
 	<classpathentry kind="lib" path="jna-4.1.0.jar"/>
 	<classpathentry kind="lib" path="jna-platform-4.1.0.jar"/>
 	<classpathentry kind="lib" path="org.apache.commons.beanutils.jar"/>
+	<classpathentry kind="lib" path="quartz-2.2.2.jar"/>
+	<classpathentry kind="lib" path="c3p0-0.9.1.1.jar"/>
+	<classpathentry kind="lib" path="quartz-jobs-2.2.2.jar"/>
+	<classpathentry kind="lib" path="slf4j-api-1.7.7.jar"/>
+	<classpathentry kind="lib" path="slf4j-log4j12-1.7.7.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
