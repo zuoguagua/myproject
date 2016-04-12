@@ -1,0 +1,98 @@
+<project name="build_server_to_agent_lib"  default="builddoc" basedir=".">
+
+	<!-- 生成的jar包的位置-->
+	<property name="jar.dir" value="../javadoc/jar"/>
+	
+	<!-- 生成的文档的位置 -->
+	<property name="doc.dir" value="../javadoc/doc"/>
+	
+	<!-- 引用pojo类的位置 -->
+    <fileset id="pojo" dir="../Ellen-S/src">
+        <include name="com/inspur/ics/common/*.java"></include>
+        <include name="com/inspur/ics/core/task/TaskIntermediateResult.java"></include>
+        <include name="com/inspur/ics/pojo/*.java" />
+    	<include name="com/inspur/ics/pojo/monitor/*.java"/>
+        <include name="com/inspur/ics/dto/*.java" />
+        <include name="com/inspur/ics/framework/result/Result.java"></include>
+        <include name="com/inspur/ics/framework/result/ExceptionEntity.java" />
+        <include name="com/inspur/ics/core/task/TaskType.java"></include>
+        <include name="com/inspur/ics/core/task/support/InternalAssembler.java"></include>
+        <include name="com/inspur/ics/core/task/support/TaskInternalAssembler.java"></include>
+    </fileset>
+	<!-- SDK的接口的位置-->
+    <fileset id="sdk_api" dir="./src">
+        <include name="com/inspur/ics/client/*.java"></include>
+    </fileset>
+	
+	<!--编译源码，在进行打包前先进行编译-->
+	<target name="compile">
+		<delete dir="./bin/com"/>
+		<javac srcdir="./src" destdir="./bin" includeAntRuntime="no" deprecation="yes">
+			<compilerarg line="-encoding UTF-8"/>
+			<classpath id="depend_jar">
+				<fileset dir=".">
+					<include name="lib/*.jar"/>
+				</fileset>	
+			</classpath>
+		</javac>
+	</target>
+
+	<!-- 解压common-server.jar文件，因为需要将该jar包中的文件打包到最终的jar包中 -->
+	<target name="commonserver" depends="compile">
+		<unjar dest="bin">
+			<fileset dir="lib">
+				<include name="common-server.jar"/>
+			</fileset>
+		</unjar>
+	</target>
+
+	<!-- 进行打包 -->
+	<target name="build_jar" depends="commonserver" >
+		<delete dir="${jar.dir}" />
+		<mkdir dir="${jar.dir}" />
+		<jar destfile="${jar.dir}\Ellen-sdk.jar" basedir="./bin">
+			<include name="com/inspur/ics/client/*.class"/>
+			<include name="com/inspur/ics/client/impl/*.class"/>
+			<include name="com/inspur/ics/client/rest/*.class"/>
+			<include name="com/inspur/ics/client/support/*.class"/>
+			<include name="com/inspur/ics/common/**/*.class" />
+			<include name="com/inspur/ics/core/**/*.class" />
+			<include name="com/inspur/ics/dto/**/*.class" />
+			<include name="com/inspur/ics/framework/**/*.class" />
+			<include name="com/inspur/ics/pojo/**/*.class" />
+		</jar>
+	</target>
+
+	<!-- 将解压的common-server.jar中的.calss文件删除掉 -->
+	<target name="result" depends="build_jar">
+		<delete dir="./bin/com/inspur/ics/pojo"/>
+		<delete dir="./bin/com/inspur/ics/common"/>
+		<delete dir="./bin/com/inspur/ics/dto"/>
+		<delete dir="./bin/com/inspur/ics/framework"/>
+		<delete dir="./bin/com/inspur/ics/core"/>
+	</target>
+
+	<path id="build.classpath">
+		<fileset dir=".">
+	    	<include name="lib/*.jar" />
+		</fileset>
+	</path>
+	
+	<!-- 生成doc文档 -->
+	<target name="builddoc" depends="result">
+		<delete dir="${doc.dir}" />
+		<mkdir dir="${doc.dir}" />
+        <javadoc destdir="${doc.dir}" 
+        		 access="private"
+        		 classpathref="build.classpath"
+				 windowtitle="Incloud Sphere API"
+                 use="yes"
+                 linksource="no"
+                 splitindex="yes"
+				 encoding="UTF-8" docencoding="UTF-8">
+        	<fileset refid="sdk_api"/>
+        	<fileset refid="pojo"/>
+		</javadoc>
+	</target>
+
+</project>

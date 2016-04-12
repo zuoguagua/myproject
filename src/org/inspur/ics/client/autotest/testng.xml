@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose = "5">
+	<test name="IcsClientAuto">
+	<parameter name="url" value="https://10.166.15.245"/>
+	<parameter name="username" value="admin"/>
+	<parameter name="password" value="admin@inspur"/>
+	<parameter name="userLocale" value="zh"/>
+		<groups>
+			<run>
+				<include name="init"/>
+			</run>
+		</groups>
+	<classes>
+		<class name="org.inspur.ics.client.autotest.aaaaatestng"></class>
+		<class name="org.inspur.ics.client.autotest.AlarmServiceTest"></class>
+	</classes>
+	</test>
+	
+</suite>
+

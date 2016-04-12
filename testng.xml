@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none" verbose="5">
+  <parameter name="url" value="https://100.1.8.5"/>
+  <parameter name="username" value="admin"/>
+  <parameter name="password" value="admin@inspur"/>
+  <parameter name="userLocale" value="zh"/>
+  
+  <!-- HostServiceTest参数列表 -->
+  <parameter name="inet" value="100.1.8.1"/><!-- 待扫描网络IP -->
+  <parameter name="masknum" value="28"/><!-- 子网掩码位数 -->
+  <parameter name="host1ip" value="100.1.8.5"/><!-- 扫描到的主机1IP -->
+  <parameter name="host1password" value="ics@inspur"/><!-- 扫描到的主机1密码 -->
+  <parameter name="host2ip" value="100.1.8.6"/><!-- 扫描到的主机2IP -->
+  <parameter name="host2password" value="ics@inspur"/><!-- 扫描到的主机2密码 -->
+<!--   <parameter name="host3ip" value="100.1.8.7"/>扫描到的主机2IP
+  <parameter name="host3password" value="ics@inspur"/>扫描到的主机2密码 -->
+  <parameter name="bmcip" value="100.1.8.15"/><!-- 配置BMCIP -->
+  <parameter name="iscsiServerIp" value="100.1.8.29"/><!-- iscsi服务器目标IP -->
+   <!-- NfsServiceTest参数列表 -->
+   <parameter name="nfsExportPath" value="100.1.8.160:/mnt/Common/NFS"/><!-- nfs导出目录 -->
+   <!-- VmServiceTest参数列表 -->
+   <parameter name="isofile" value="/storage/nfs/2008_win7_activate.iso"/><!--ISO镜像路径 -->
+  <test name="ICSAutoTest">
+      <groups>
+          <run>
+              <include name="init"/>
+              <include name="create"/>
+              <include name="querybefore"/>
+              <include name="query"/>
+              <include name="update"/>
+              <include name="delete"/>
+          </run>
+          <dependencies>
+              <group name="create" depends-on="init"></group>
+              <group name="querybefore" depends-on="create"></group>
+              <group name="query" depends-on="querybefore"></group>
+              <group name="update" depends-on="query"></group>
+              <group name="delete" depends-on="update"></group>
+          </dependencies>
+      </groups>
+      <classes>
+      	<class name="com.inspur.ics.client.autotest.TestUtil"/>
+          <class name="com.inspur.ics.client.autotest.HostServiceTest"/>
+          <class name="com.inspur.ics.client.autotest.ClusterServiceTest"/>
+          <class name="com.inspur.ics.client.autotest.StorageDeviceServiceTest"/>
+          <class name="com.inspur.ics.client.autotest.DataStoreServiceTest"/>
+          <class name="com.inspur.ics.client.autotest.VNetServiceTest"/>
+          <class name="com.inspur.ics.client.autotest.IscsiServiceTest"/>
+          <class name="com.inspur.ics.client.autotest.VMServiceTest"/>
+          <class name="com.inspur.ics.client.autotest.VmTemplateServiceTest"/>
+          <class name="com.inspur.ics.client.autotest.VClusterServiceTest"/>
+          <class name="com.inspur.ics.client.autotest.VcTemplateServiceTest"/>
+          <class name="com.inspur.ics.client.autotest.DrsServiceTest"/>
+          <class name="com.inspur.ics.client.autotest.TaskServiceTest"/>
+          <class name="com.inspur.ics.client.autotest.NfsServiceTest"/>
+          <class name="com.inspur.ics.client.autotest.ScheduleServiceTest"/>
+          <class name="com.inspur.ics.client.autotest.SystemConfigServiceTest"/>
+          <class name="com.inspur.ics.client.autotest.SystemEventServiceTest"/>
+          <class name="com.inspur.ics.client.autotest.SystemLicenseServiceTest"/>
+          <class name="com.inspur.ics.client.autotest.SystemSecurityServiceTest"/>
+          <class name="com.inspur.ics.client.autotest.SystemTopologyServiceTest"/>
+          <class name="com.inspur.ics.client.autotest.HistoryServiceTest"/>
+          <class name="com.inspur.ics.client.autotest.AlarmServiceTest"/>
+    </classes>
+  </test> <!-- ICSAutoTest -->
+</suite> <!-- Suite -->

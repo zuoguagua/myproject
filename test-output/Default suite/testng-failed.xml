@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="password" value="not-found"/>
+  <parameter name="userLocale" value="not-found"/>
+  <parameter name="url" value="not-found"/>
+  <parameter name="username" value="not-found"/>
   <test name="Default test(failed)">
     <classes>
-      <class name="org.ovirt.engine.autotest.atestng">
+      <class name="org.inspur.ics.client.autotest.AlarmServiceTest">
         <methods>
-          <include name="testGetTags"/>
+          <include name="init"/>
+          <include name="init"/>
+          <include name="getAllEvents"/>
         </methods>
-      </class> <!-- org.ovirt.engine.autotest.atestng -->
+      </class> <!-- org.inspur.ics.client.autotest.AlarmServiceTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

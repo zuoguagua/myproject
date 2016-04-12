@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\inspur\AppData\Local\Temp\testng-eclipse--1858444349\testng-customsuite.xml</span>
+                    <span>C:\Users\inspur\AppData\Local\Temp\testng-eclipse-371655519\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,7 +101,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.ovirt.engine.autotest.atestng" hash-for-method="testGetTags">testGetTags</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.inspur.ics.client.autotest.AlarmServiceTest" hash-for-method="init(https://10.166.15.245, admin, admin@inspur, zh)">init(https://10.166.15.245, admin, admin@inspur, zh)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.inspur.ics.client.autotest.AlarmServiceTest" hash-for-method="testGetAllEvents">testGetAllEvents</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.inspur.ics.client.autotest.AlarmServiceTest" hash-for-method="testUpdateHostAlarmStrategy">testUpdateHostAlarmStrategy</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -119,14 +129,29 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">org.ovirt.engine.autotest.atestng</span>
+              <span class="class-name">org.inspur.ics.client.autotest.AlarmServiceTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testGetTags">
-                  </a> <!-- testGetTags -->
-                  <span class="method-name">testGetTags</span>
+                  <a name="init(https://10.166.15.245, admin, admin@inspur, zh)">
+                  </a> <!-- init(https://10.166.15.245, admin, admin@inspur, zh) -->
+                  <span class="method-name">init</span>
+                  <span class="parameters">(https://10.166.15.245, admin, admin@inspur, zh)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAllEvents">
+                  </a> <!-- testGetAllEvents -->
+                  <span class="method-name">testGetAllEvents</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateHostAlarmStrategy">
+                  </a> <!-- testUpdateHostAlarmStrategy -->
+                  <span class="method-name">testUpdateHostAlarmStrategy</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -134,16 +159,20 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\inspur\AppData\Local\Temp\testng-eclipse--1858444349\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\inspur\AppData\Local\Temp\testng-eclipse-371655519\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;parameter name=&quot;password&quot; value=&quot;admin@inspur&quot;/&gt;
+  &lt;parameter name=&quot;userLocale&quot; value=&quot;zh&quot;/&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;https://10.166.15.245&quot;/&gt;
+  &lt;parameter name=&quot;username&quot; value=&quot;admin&quot;/&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;org.ovirt.engine.autotest.atestng&quot;/&gt;
+      &lt;class name=&quot;org.inspur.ics.client.autotest.AlarmServiceTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -183,11 +212,19 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testGetTags')
-data.setCell(0, 2, 'org.ovirt.engine.autotest.atestng')
-data.setCell(0, 3, 1836);
+data.setCell(0, 1, 'init')
+data.setCell(0, 2, 'org.inspur.ics.client.autotest.AlarmServiceTest')
+data.setCell(0, 3, 684);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testUpdateHostAlarmStrategy')
+data.setCell(1, 2, 'org.inspur.ics.client.autotest.AlarmServiceTest')
+data.setCell(1, 3, 628);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testGetAllEvents')
+data.setCell(2, 2, 'org.inspur.ics.client.autotest.AlarmServiceTest')
+data.setCell(2, 3, 109);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -207,9 +244,24 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">5 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.inspur.ics.client.autotest.AlarmServiceTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">updateAlarmStrategy</span>
+                <br/>
+                <span class="ignored-method-name">getHostAlaramStrategy</span>
+                <br/>
+                <span class="ignored-method-name">updateDataStoreAlarmStrategy</span>
+                <br/>
+                <span class="ignored-method-name">getVmAlaramStrategy</span>
+                <br/>
+                <span class="ignored-method-name">getDataStoreAlarmStrategy</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_suite" class="panel">
@@ -218,10 +270,22 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">org.ovirt.engine.autotest.atestng</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">testGetTags</span>
+              <div class="chronological-class-name">org.inspur.ics.client.autotest.AlarmServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">init(https://10.166.15.245, admin, admin@inspur, zh)</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">init(https://10.166.15.245, admin, admin@inspur, zh)</span>
+                <span class="method-start">1568 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetAllEvents</span>
+                <span class="method-start">2252 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateHostAlarmStrategy</span>
+                <span class="method-start">2362 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

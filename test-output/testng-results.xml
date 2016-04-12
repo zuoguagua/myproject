@@ -1,17 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1850" started-at="2016-04-11T06:46:40Z" finished-at="2016-04-11T06:46:42Z">
+  <suite name="Default suite" duration-ms="2998" started-at="2016-04-12T07:52:59Z" finished-at="2016-04-12T07:53:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1850" started-at="2016-04-11T06:46:40Z" finished-at="2016-04-11T06:46:42Z">
-      <class name="org.ovirt.engine.autotest.atestng">
-        <test-method status="PASS" signature="testGetTags()[pri:0, instance:org.ovirt.engine.autotest.atestng@15f2bb7]" name="testGetTags" duration-ms="1836" started-at="2016-04-11T14:46:40Z" finished-at="2016-04-11T14:46:42Z">
+    <test name="Default test" duration-ms="2998" started-at="2016-04-12T07:52:59Z" finished-at="2016-04-12T07:53:02Z">
+      <class name="org.inspur.ics.client.autotest.AlarmServiceTest">
+        <test-method status="PASS" signature="init(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.inspur.ics.client.autotest.AlarmServiceTest@f67ac7]" name="init" is-config="true" duration-ms="1564" started-at="2016-04-12T15:52:59Z" finished-at="2016-04-12T15:53:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://10.166.15.245]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin@inspur]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[zh]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGetTags -->
-      </class> <!-- org.ovirt.engine.autotest.atestng -->
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.inspur.ics.client.autotest.AlarmServiceTest@f67ac7]" name="init" duration-ms="684" started-at="2016-04-12T15:53:00Z" finished-at="2016-04-12T15:53:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://10.166.15.245]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin@inspur]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[zh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testGetAllEvents()[pri:0, instance:org.inspur.ics.client.autotest.AlarmServiceTest@f67ac7]" name="testGetAllEvents" duration-ms="109" started-at="2016-04-12T15:53:01Z" finished-at="2016-04-12T15:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllEvents -->
+        <test-method status="PASS" signature="testUpdateHostAlarmStrategy()[pri:0, instance:org.inspur.ics.client.autotest.AlarmServiceTest@f67ac7]" name="testUpdateHostAlarmStrategy" duration-ms="628" started-at="2016-04-12T15:53:01Z" finished-at="2016-04-12T15:53:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateHostAlarmStrategy -->
+      </class> <!-- org.inspur.ics.client.autotest.AlarmServiceTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
