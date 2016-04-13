@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\inspur\AppData\Local\Temp\testng-eclipse-371655519\testng-customsuite.xml</span>
+                    <span>C:\Users\inspur\AppData\Local\Temp\testng-eclipse-1344432012\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">7 methods, 1 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testng.AssertJUnitTest" hash-for-method="testFail">testFail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,17 +115,32 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.inspur.ics.client.autotest.AlarmServiceTest" hash-for-method="init(https://10.166.15.245, admin, admin@inspur, zh)">init(https://10.166.15.245, admin, admin@inspur, zh)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testng.AssertJUnitTest" hash-for-method="testAssertEquals0">testAssertEquals0</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.inspur.ics.client.autotest.AlarmServiceTest" hash-for-method="testGetAllEvents">testGetAllEvents</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testng.AssertJUnitTest" hash-for-method="testAssertEquals1">testAssertEquals1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.inspur.ics.client.autotest.AlarmServiceTest" hash-for-method="testUpdateHostAlarmStrategy">testUpdateHostAlarmStrategy</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testng.AssertJUnitTest" hash-for-method="testAssertFalse">testAssertFalse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testng.AssertJUnitTest" hash-for-method="testAssertNotNull">testAssertNotNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testng.AssertJUnitTest" hash-for-method="testAssertNotSame">testAssertNotSame</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testng.AssertJUnitTest" hash-for-method="testAssertTrue">testAssertTrue</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -126,32 +155,97 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">org.inspur.ics.client.autotest.AlarmServiceTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.testng.AssertJUnitTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="init(https://10.166.15.245, admin, admin@inspur, zh)">
-                  </a> <!-- init(https://10.166.15.245, admin, admin@inspur, zh) -->
-                  <span class="method-name">init</span>
-                  <span class="parameters">(https://10.166.15.245, admin, admin@inspur, zh)</span>
+                  <a name="testFail">
+                  </a> <!-- testFail -->
+                  <span class="method-name">testFail</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
+	at org.testng.AssertJUnit.fail(AssertJUnit.java:66)
+	at com.testng.AssertJUnitTest.testFail(AssertJUnitTest.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testng.AssertJUnitTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAssertEquals0">
+                  </a> <!-- testAssertEquals0 -->
+                  <span class="method-name">testAssertEquals0</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testGetAllEvents">
-                  </a> <!-- testGetAllEvents -->
-                  <span class="method-name">testGetAllEvents</span>
+                  <a name="testAssertEquals1">
+                  </a> <!-- testAssertEquals1 -->
+                  <span class="method-name">testAssertEquals1</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testUpdateHostAlarmStrategy">
-                  </a> <!-- testUpdateHostAlarmStrategy -->
-                  <span class="method-name">testUpdateHostAlarmStrategy</span>
+                  <a name="testAssertFalse">
+                  </a> <!-- testAssertFalse -->
+                  <span class="method-name">testAssertFalse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAssertNotNull">
+                  </a> <!-- testAssertNotNull -->
+                  <span class="method-name">testAssertNotNull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAssertNotSame">
+                  </a> <!-- testAssertNotSame -->
+                  <span class="method-name">testAssertNotSame</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAssertTrue">
+                  </a> <!-- testAssertTrue -->
+                  <span class="method-name">testAssertTrue</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -159,20 +253,16 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\inspur\AppData\Local\Temp\testng-eclipse-371655519\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\inspur\AppData\Local\Temp\testng-eclipse-1344432012\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
-  &lt;parameter name=&quot;password&quot; value=&quot;admin@inspur&quot;/&gt;
-  &lt;parameter name=&quot;userLocale&quot; value=&quot;zh&quot;/&gt;
-  &lt;parameter name=&quot;url&quot; value=&quot;https://10.166.15.245&quot;/&gt;
-  &lt;parameter name=&quot;username&quot; value=&quot;admin&quot;/&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;org.inspur.ics.client.autotest.AlarmServiceTest&quot;/&gt;
+      &lt;class name=&quot;com.testng.AssertJUnitTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -212,24 +302,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'init')
-data.setCell(0, 2, 'org.inspur.ics.client.autotest.AlarmServiceTest')
-data.setCell(0, 3, 684);
+data.setCell(0, 1, 'testAssertEquals0')
+data.setCell(0, 2, 'com.testng.AssertJUnitTest')
+data.setCell(0, 3, 11);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testUpdateHostAlarmStrategy')
-data.setCell(1, 2, 'org.inspur.ics.client.autotest.AlarmServiceTest')
-data.setCell(1, 3, 628);
+data.setCell(1, 1, 'testAssertFalse')
+data.setCell(1, 2, 'com.testng.AssertJUnitTest')
+data.setCell(1, 3, 1);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testGetAllEvents')
-data.setCell(2, 2, 'org.inspur.ics.client.autotest.AlarmServiceTest')
-data.setCell(2, 3, 109);
+data.setCell(2, 1, 'testAssertNotNull')
+data.setCell(2, 2, 'com.testng.AssertJUnitTest')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testAssertEquals1')
+data.setCell(3, 2, 'com.testng.AssertJUnitTest')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testAssertNotSame')
+data.setCell(4, 2, 'com.testng.AssertJUnitTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testAssertTrue')
+data.setCell(5, 2, 'com.testng.AssertJUnitTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testFail')
+data.setCell(6, 2, 'com.testng.AssertJUnitTest')
+data.setCell(6, 3, 0);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 14 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -244,24 +350,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">5 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">org.inspur.ics.client.autotest.AlarmServiceTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">updateAlarmStrategy</span>
-                <br/>
-                <span class="ignored-method-name">getHostAlaramStrategy</span>
-                <br/>
-                <span class="ignored-method-name">updateDataStoreAlarmStrategy</span>
-                <br/>
-                <span class="ignored-method-name">getVmAlaramStrategy</span>
-                <br/>
-                <span class="ignored-method-name">getDataStoreAlarmStrategy</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_suite" class="panel">
@@ -270,22 +361,36 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">org.inspur.ics.client.autotest.AlarmServiceTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">init(https://10.166.15.245, admin, admin@inspur, zh)</span>
+              <div class="chronological-class-name">com.testng.AssertJUnitTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testAssertEquals0</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">init(https://10.166.15.245, admin, admin@inspur, zh)</span>
-                <span class="method-start">1568 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">testGetAllEvents</span>
-                <span class="method-start">2252 ms</span>
+                <span class="method-name">testAssertEquals1</span>
+                <span class="method-start">13 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">testUpdateHostAlarmStrategy</span>
-                <span class="method-start">2362 ms</span>
+                <span class="method-name">testAssertFalse</span>
+                <span class="method-start">14 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAssertNotNull</span>
+                <span class="method-start">15 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAssertNotSame</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAssertTrue</span>
+                <span class="method-start">17 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testFail</span>
+                <span class="method-start">18 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
