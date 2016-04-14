@@ -1,74 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="7" passed="6">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29" started-at="2016-04-13T01:48:55Z" finished-at="2016-04-13T01:48:55Z">
+  <suite name="Default suite" duration-ms="64992" started-at="2016-04-14T06:42:22Z" finished-at="2016-04-14T06:43:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29" started-at="2016-04-13T01:48:55Z" finished-at="2016-04-13T01:48:55Z">
-      <class name="com.testng.AssertJUnitTest">
-        <test-method status="PASS" signature="testAssertEquals0()[pri:0, instance:com.testng.AssertJUnitTest@1e0f4f]" name="testAssertEquals0" duration-ms="11" started-at="2016-04-13T09:48:55Z" finished-at="2016-04-13T09:48:55Z">
+    <test name="Default test" duration-ms="64992" started-at="2016-04-14T06:42:22Z" finished-at="2016-04-14T06:43:27Z">
+      <class name="org.inspur.ics.client.autotest.ClusterServiceTest">
+        <test-method status="PASS" signature="init(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.inspur.ics.client.autotest.ClusterServiceTest@16216b3]" name="init" is-config="true" duration-ms="62153" started-at="2016-04-14T14:42:23Z" finished-at="2016-04-14T14:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://10.166.15.245]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin@inspur]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[zh]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAssertEquals0 -->
-        <test-method status="PASS" signature="testAssertEquals1()[pri:0, instance:com.testng.AssertJUnitTest@1e0f4f]" name="testAssertEquals1" duration-ms="1" started-at="2016-04-13T09:48:55Z" finished-at="2016-04-13T09:48:55Z">
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="addHost(java.lang.String)[pri:0, instance:org.inspur.ics.client.autotest.ClusterServiceTest@16216b3]" name="addHost" duration-ms="891" started-at="2016-04-14T14:43:25Z" finished-at="2016-04-14T14:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10.166.15.245]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAssertEquals1 -->
-        <test-method status="PASS" signature="testAssertFalse()[pri:0, instance:com.testng.AssertJUnitTest@1e0f4f]" name="testAssertFalse" duration-ms="1" started-at="2016-04-13T09:48:55Z" finished-at="2016-04-13T09:48:55Z">
+        </test-method> <!-- addHost -->
+        <test-method status="PASS" signature="getAllCluster()[pri:0, instance:org.inspur.ics.client.autotest.ClusterServiceTest@16216b3]" name="getAllCluster" duration-ms="453" started-at="2016-04-14T14:43:26Z" finished-at="2016-04-14T14:43:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAssertFalse -->
-        <test-method status="PASS" signature="testAssertNotNull()[pri:0, instance:com.testng.AssertJUnitTest@1e0f4f]" name="testAssertNotNull" duration-ms="1" started-at="2016-04-13T09:48:55Z" finished-at="2016-04-13T09:48:55Z">
+        </test-method> <!-- getAllCluster -->
+        <test-method status="PASS" signature="getAllHeartbeatDevice()[pri:0, instance:org.inspur.ics.client.autotest.ClusterServiceTest@16216b3]" name="getAllHeartbeatDevice" duration-ms="1" started-at="2016-04-14T14:43:26Z" finished-at="2016-04-14T14:43:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAssertNotNull -->
-        <test-method status="PASS" signature="testAssertNotSame()[pri:0, instance:com.testng.AssertJUnitTest@1e0f4f]" name="testAssertNotSame" duration-ms="0" started-at="2016-04-13T09:48:55Z" finished-at="2016-04-13T09:48:55Z">
+        </test-method> <!-- getAllHeartbeatDevice -->
+        <test-method status="PASS" signature="init(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.inspur.ics.client.autotest.ClusterServiceTest@16216b3]" name="init" duration-ms="795" started-at="2016-04-14T14:43:26Z" finished-at="2016-04-14T14:43:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://10.166.15.245]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin@inspur]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[zh]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAssertNotSame -->
-        <test-method status="PASS" signature="testAssertTrue()[pri:0, instance:com.testng.AssertJUnitTest@1e0f4f]" name="testAssertTrue" duration-ms="0" started-at="2016-04-13T09:48:55Z" finished-at="2016-04-13T09:48:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAssertTrue -->
-        <test-method status="FAIL" signature="testFail()[pri:0, instance:com.testng.AssertJUnitTest@1e0f4f]" name="testFail" duration-ms="0" started-at="2016-04-13T09:48:55Z" finished-at="2016-04-13T09:48:55Z">
-          <exception class="java.lang.AssertionError">
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 
-	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
-	at org.testng.AssertJUnit.fail(AssertJUnit.java:66)
-	at com.testng.AssertJUnitTest.testFail(AssertJUnitTest.java:66)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testFail -->
-      </class> <!-- com.testng.AssertJUnitTest -->
+        </test-method> <!-- init -->
+      </class> <!-- org.inspur.ics.client.autotest.ClusterServiceTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

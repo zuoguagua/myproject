@@ -7,6 +7,7 @@
 	<parameter name="username" value="admin"/>
 	<parameter name="password" value="admin@inspur"/>
 	<parameter name="userLocale" value="zh"/>
+	<parameter name="host1ip" value="10.166.15.245"/>
 		<groups>
 			<run>
 				<include name="init"/>
