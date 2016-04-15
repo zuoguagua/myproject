@@ -1,31 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="poi"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry kind="lib" path="selenium-server-standalone-2.50.1.jar"/>
-	<classpathentry kind="lib" path="log4j-1.2.17.jar"/>
-	<classpathentry kind="lib" path="httpclient-4.5.2.jar"/>
-	<classpathentry kind="lib" path="commons-codec-1.9.jar"/>
-	<classpathentry kind="lib" path="commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="fluent-hc-4.5.2.jar"/>
-	<classpathentry kind="lib" path="httpclient-cache-4.5.2.jar"/>
-	<classpathentry kind="lib" path="httpclient-win-4.5.2.jar"/>
-	<classpathentry kind="lib" path="httpcore-4.4.4.jar"/>
-	<classpathentry kind="lib" path="httpmime-4.5.2.jar"/>
-	<classpathentry kind="lib" path="jna-4.1.0.jar"/>
-	<classpathentry kind="lib" path="jna-platform-4.1.0.jar"/>
-	<classpathentry kind="lib" path="org.apache.commons.beanutils.jar"/>
-	<classpathentry kind="lib" path="quartz-2.2.2.jar"/>
-	<classpathentry kind="lib" path="c3p0-0.9.1.1.jar"/>
-	<classpathentry kind="lib" path="quartz-jobs-2.2.2.jar"/>
-	<classpathentry kind="lib" path="slf4j-api-1.7.7.jar"/>
-	<classpathentry kind="lib" path="slf4j-log4j12-1.7.7.jar"/>
 	<classpathentry kind="lib" path="lib/common-server.jar"/>
 	<classpathentry kind="lib" path="lib/commons-io-2.1.jar"/>
 	<classpathentry kind="lib" path="lib/commons-logging-1.1.jar"/>
-	<classpathentry kind="lib" path="lib/dom4j-1.6.1.jar"/>
 	<classpathentry kind="lib" path="lib/httpclient-4.1.2.jar"/>
-	<classpathentry kind="lib" path="lib/httpcore-4.1.2.jar"/>
 	<classpathentry kind="lib" path="lib/jackson-core-asl-1.9.11.jar"/>
 	<classpathentry kind="lib" path="lib/jackson-mapper-asl-1.9.11.jar"/>
 	<classpathentry kind="lib" path="lib/jaxrs-api-2.3.5.Final.jar"/>
@@ -34,5 +15,30 @@
 	<classpathentry kind="lib" path="lib/testng-6.9.10.jar"/>
 	<classpathentry kind="lib" path="lib/xmlpull-1.1.3.1.jar"/>
 	<classpathentry kind="lib" path="lib/xstream-1.4.3.jar"/>
+	<classpathentry kind="lib" path="lib/c3p0-0.9.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/curvesapi-1.03.jar"/>
+	<classpathentry kind="lib" path="lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/fluent-hc-4.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient-cache-4.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient-win-4.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="lib/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/inspur-baron-sdk-nodep.jar"/>
+	<classpathentry kind="lib" path="lib/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="lib/org.apache.commons.beanutils.jar"/>
+	<classpathentry kind="lib" path="lib/poi-3.14-20160307.jar"/>
+	<classpathentry kind="lib" path="lib/poi-ooxml-3.14-20160307.jar"/>
+	<classpathentry kind="lib" path="lib/poi-ooxml-schemas-3.14-20160307.jar"/>
+	<classpathentry kind="lib" path="lib/quartz-2.2.2.jar"/>
+	<classpathentry kind="lib" path="lib/quartz-jobs-2.2.2.jar"/>
+	<classpathentry kind="lib" path="lib/selenium-server-standalone-2.50.1.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.7.7.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-log4j12-1.7.7.jar"/>
+	<classpathentry kind="lib" path="lib/xmlbeans-2.6.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
