@@ -20,17 +20,29 @@ public class JfreeChartDemo {
 		chart.setVisible(true);
 		
 		
+		LineChart_AWT lineChart = new LineChart_AWT("School Vs Year", "Number of Schools vs years");
+		lineChart.pack();
+		RefineryUtilities.centerFrameOnScreen(lineChart);
+		lineChart.setVisible(true);
+		
 		//PieChart jpegDemo = new PieChart();
 		//jpegDemo.JFreeChartDemoJPEG();
 		
 		//PieChart pngDemo = new PieChart();
 		//pngDemo.JFreeChartDemoPNG();
 		
-		BarChart jpegDemo = new BarChart();
-		jpegDemo.JFreeChartBarJPEG();
+		//BarChart jpegDemo = new BarChart();
+		//jpegDemo.JFreeChartBarJPEG();
 		
-		BarChart pngDemo = new BarChart();
-		pngDemo.JFreeChartBarPNG();
+		//BarChart pngDemo = new BarChart();
+		//pngDemo.JFreeChartBarPNG();
+		
+		LineChart jpegDemo = new LineChart();
+		jpegDemo.JFreeChartLineJPEG();
+		
+		LineChart pngDemo = new LineChart();
+		pngDemo.JFreeChartLinePNG();
+		
 	}
 	
 	
