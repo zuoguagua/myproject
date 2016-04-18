@@ -4,6 +4,7 @@ import org.jfree.ui.RefineryUtilities;
 
 public class JfreeChartDemo {
 
+	@SuppressWarnings("static-access")
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		PieChart_AWT demo = new PieChart_AWT("Mobile Sales");
@@ -24,6 +25,12 @@ public class JfreeChartDemo {
 		
 		//PieChart pngDemo = new PieChart();
 		//pngDemo.JFreeChartDemoPNG();
+		
+		BarChart jpegDemo = new BarChart();
+		jpegDemo.JFreeChartBarJPEG();
+		
+		BarChart pngDemo = new BarChart();
+		pngDemo.JFreeChartBarPNG();
 	}
 	
 	
