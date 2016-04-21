@@ -25,6 +25,15 @@ public class JfreeChartDemo {
 		RefineryUtilities.centerFrameOnScreen(lineChart);
 		lineChart.setVisible(true);
 		
+		
+		
+		XYLineChart_AWT xylineChart = new XYLineChart_AWT("Browser Usage Statistcs","Which Browser are you using?");
+		xylineChart.pack();
+		RefineryUtilities.centerFrameOnScreen(xylineChart);
+		xylineChart.setVisible(true);
+		
+		
+		
 		//PieChart jpegDemo = new PieChart();
 		//jpegDemo.JFreeChartDemoJPEG();
 		
@@ -37,11 +46,32 @@ public class JfreeChartDemo {
 		//BarChart pngDemo = new BarChart();
 		//pngDemo.JFreeChartBarPNG();
 		
-		LineChart jpegDemo = new LineChart();
-		jpegDemo.JFreeChartLineJPEG();
+		//LineChart jpegDemo = new LineChart();
+		//jpegDemo.JFreeChartLineJPEG();
 		
-		LineChart pngDemo = new LineChart();
-		pngDemo.JFreeChartLinePNG();
+		//LineChart pngDemo = new LineChart();
+		//pngDemo.JFreeChartLinePNG();
+		
+		//XYLineChart jpegDemo = new XYLineChart();
+		//jpegDemo.JFreeChartDemoJPEG();
+		
+		//XYLineChart pngDemo = new XYLineChart();
+		//pngDemo.JFreeChartDemoPng();
+		
+		//PieChart3D jpegDemo = new PieChart3D();
+		//jpegDemo.JFreeChartDemoJPEG();
+		
+		//PieChart3D pngDemo = new PieChart3D();
+		//pngDemo.JFreeChartDemoPNG();
+		
+		
+		BarChart3D jpegDemo = new BarChart3D();
+		jpegDemo.BarChart3DJPEG();
+		
+		BarChart3D pngDemo = new BarChart3D();
+		pngDemo.BarChart3DPNG();
+		
+		
 		
 	}
 	
