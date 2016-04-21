@@ -1,6 +1,7 @@
 package com.inspur;
 
 import java.io.IOException;
+import java.util.Date;
 
 import com.inspur.host.hostList;
 import com.inspur.util.SslTest;
@@ -19,7 +20,8 @@ public class Hello {
 		// TODO Auto-generated method stub
 		System.out.println("Hello");
 		
-
+		Date fromdate = new Date(115,2,10);
+		System.out.println(fromdate);
 		
 		//hostList hostlist = new hostList();
 		//hostlist.sendGetRequestHostList();

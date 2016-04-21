@@ -139,13 +139,6 @@ public class ClientFactory {
     }
 
     /**
-     * 获取告警服务对象实例.
-     * @return 返回AlarmService对象
-     */
-    public AlarmService getAlarmService() {
-       return new AlarmServiceImpl(url, token);
-    }
-    /**
      * 获取集群服务对象实例.
      * @return 返回ClusterService对象
      */
@@ -340,5 +333,13 @@ public class ClientFactory {
     public void setUsername(String username) {
         this.username = username;
     }
+
+	/**
+	 * 获取告警服务对象实例.
+	 * @return 返回AlarmService对象
+	 */
+	public AlarmService getAlarmService() {
+	   return new AlarmServiceImpl(url, token);
+	}
 
 }
