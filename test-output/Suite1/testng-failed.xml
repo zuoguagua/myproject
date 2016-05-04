@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
-  <test name="test1(failed)">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Suite1]">
+  <parameter name="password" value="admin@inspur"/>
+  <parameter name="userLocale" value="zh"/>
+  <parameter name="host1ip" value="10.166.15.245"/>
+  <parameter name="url" value="https://10.166.15.245"/>
+  <parameter name="username" value="admin"/>
+  <test name="IcsClientAuto">
+    <parameter name="password" value="admin@inspur"/>
+    <parameter name="userLocale" value="zh"/>
+    <parameter name="host1ip" value="10.166.15.245"/>
+    <parameter name="url" value="https://10.166.15.245"/>
+    <parameter name="username" value="admin"/>
     <classes>
-      <class name="com.testng.DependencyTestUsingAnnotation">
-        <methods>
-          <include name="testSalutationMessage"/>
-          <include name="testPrintMessage"/>
-          <include name="initEnvironmentTest"/>
-        </methods>
-      </class> <!-- com.testng.DependencyTestUsingAnnotation -->
+      <class name="org.inspur.ics.client.autotest.aaaaatestng"/>
+      <class name="org.inspur.ics.client.autotest.AlarmServiceTest"/>
     </classes>
-  </test> <!-- test1(failed) -->
+  </test> <!-- IcsClientAuto -->
 </suite> <!-- Failed suite [Suite1] -->

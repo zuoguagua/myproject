@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="64992" started-at="2016-04-14T06:42:22Z" finished-at="2016-04-14T06:43:27Z">
+  <suite name="Suite1" duration-ms="43104" started-at="2016-04-27T07:34:54Z" finished-at="2016-04-27T07:35:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="64992" started-at="2016-04-14T06:42:22Z" finished-at="2016-04-14T06:43:27Z">
-      <class name="org.inspur.ics.client.autotest.ClusterServiceTest">
-        <test-method status="PASS" signature="init(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.inspur.ics.client.autotest.ClusterServiceTest@16216b3]" name="init" is-config="true" duration-ms="62153" started-at="2016-04-14T14:42:23Z" finished-at="2016-04-14T14:43:25Z">
+    <test name="IcsClientAuto" duration-ms="43104" started-at="2016-04-27T07:34:54Z" finished-at="2016-04-27T07:35:37Z">
+      <class name="org.inspur.ics.client.autotest.AlarmServiceTest">
+        <test-method status="PASS" signature="init(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.inspur.ics.client.autotest.AlarmServiceTest@5a99da]" name="init" is-config="true" duration-ms="1683" started-at="2016-04-27T15:35:31Z" finished-at="2016-04-27T15:35:33Z">
           <params>
             <param index="0">
               <value>
@@ -33,26 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="addHost(java.lang.String)[pri:0, instance:org.inspur.ics.client.autotest.ClusterServiceTest@16216b3]" name="addHost" duration-ms="891" started-at="2016-04-14T14:43:25Z" finished-at="2016-04-14T14:43:26Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[10.166.15.245]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addHost -->
-        <test-method status="PASS" signature="getAllCluster()[pri:0, instance:org.inspur.ics.client.autotest.ClusterServiceTest@16216b3]" name="getAllCluster" duration-ms="453" started-at="2016-04-14T14:43:26Z" finished-at="2016-04-14T14:43:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getAllCluster -->
-        <test-method status="PASS" signature="getAllHeartbeatDevice()[pri:0, instance:org.inspur.ics.client.autotest.ClusterServiceTest@16216b3]" name="getAllHeartbeatDevice" duration-ms="1" started-at="2016-04-14T14:43:26Z" finished-at="2016-04-14T14:43:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getAllHeartbeatDevice -->
-        <test-method status="PASS" signature="init(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.inspur.ics.client.autotest.ClusterServiceTest@16216b3]" name="init" duration-ms="795" started-at="2016-04-14T14:43:26Z" finished-at="2016-04-14T14:43:27Z">
+        <test-method status="PASS" signature="init(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.inspur.ics.client.autotest.AlarmServiceTest@5a99da]" name="init" duration-ms="2525" started-at="2016-04-27T15:35:33Z" finished-at="2016-04-27T15:35:36Z">
           <params>
             <param index="0">
               <value>
@@ -78,7 +59,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-      </class> <!-- org.inspur.ics.client.autotest.ClusterServiceTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method status="PASS" signature="testGetAllEvents()[pri:0, instance:org.inspur.ics.client.autotest.AlarmServiceTest@5a99da]" name="testGetAllEvents" duration-ms="434" started-at="2016-04-27T15:35:36Z" finished-at="2016-04-27T15:35:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllEvents -->
+        <test-method status="PASS" signature="testUpdateHostAlarmStrategy()[pri:0, instance:org.inspur.ics.client.autotest.AlarmServiceTest@5a99da]" name="testUpdateHostAlarmStrategy" duration-ms="1292" started-at="2016-04-27T15:35:36Z" finished-at="2016-04-27T15:35:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateHostAlarmStrategy -->
+      </class> <!-- org.inspur.ics.client.autotest.AlarmServiceTest -->
+      <class name="org.inspur.ics.client.autotest.aaaaatestng">
+        <test-method status="PASS" signature="init()[pri:0, instance:org.inspur.ics.client.autotest.aaaaatestng@a4a92b]" name="init" is-config="true" duration-ms="35751" started-at="2016-04-27T15:34:54Z" finished-at="2016-04-27T15:35:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getHostInfo()[pri:0, instance:org.inspur.ics.client.autotest.aaaaatestng@a4a92b]" name="getHostInfo" duration-ms="307" started-at="2016-04-27T15:35:30Z" finished-at="2016-04-27T15:35:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHostInfo -->
+        <test-method status="PASS" signature="init()[pri:0, instance:org.inspur.ics.client.autotest.aaaaatestng@a4a92b]" name="init" duration-ms="1054" started-at="2016-04-27T15:35:30Z" finished-at="2016-04-27T15:35:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+      </class> <!-- org.inspur.ics.client.autotest.aaaaatestng -->
+    </test> <!-- IcsClientAuto -->
+  </suite> <!-- Suite1 -->
 </testng-results>

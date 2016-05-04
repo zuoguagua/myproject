@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Converted JUnit suite]">
+  <test name="JUnitTests">
+    <classes>
+      <class name="com.testng.TestEmployeeDetails"/>
+    </classes>
+  </test> <!-- JUnitTests -->
+</suite> <!-- Failed suite [Converted JUnit suite] -->

@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Suite1]">
   <parameter name="password" value="admin@inspur"/>
   <parameter name="userLocale" value="zh"/>
   <parameter name="host1ip" value="10.166.15.245"/>
   <parameter name="url" value="https://10.166.15.245"/>
   <parameter name="username" value="admin"/>
-  <test name="Default test(failed)">
+  <test name="IcsClientAuto">
+    <parameter name="password" value="admin@inspur"/>
+    <parameter name="userLocale" value="zh"/>
+    <parameter name="host1ip" value="10.166.15.245"/>
+    <parameter name="url" value="https://10.166.15.245"/>
+    <parameter name="username" value="admin"/>
     <classes>
-      <class name="org.inspur.ics.client.autotest.ClusterServiceTest">
-        <methods>
-          <include name="createCluster"/>
-          <include name="init"/>
-        </methods>
-      </class> <!-- org.inspur.ics.client.autotest.ClusterServiceTest -->
+      <class name="org.inspur.ics.client.autotest.aaaaatestng"/>
+      <class name="org.inspur.ics.client.autotest.AlarmServiceTest"/>
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- IcsClientAuto -->
+</suite> <!-- Failed suite [Suite1] -->

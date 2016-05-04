@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name = "Converted JUnit suite">
-	<test name = "JUnitTests" junit = "true">
+	<test name = "JUnitTests" >
 		<classes>
-			<class name="com.testng.TestJunit"/>
+			<class name="com.testng.TestEmployeeDetails"/>
 		</classes>
 	</test>
 </suite>

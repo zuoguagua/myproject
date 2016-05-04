@@ -3,8 +3,7 @@ package com.testng;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.inspur.common.EmpBusinessLogic;
-import com.inspur.common.EmployeeDetails;
+
 
 public class TestEmployeeDetails {
 	EmpBusinessLogic empBussinessLogic = new EmpBusinessLogic();
