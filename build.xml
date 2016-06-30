@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="antbuild" basedir="." default="run-test">
+
+	<property name="src" value="src"/>
+	<property name="test" value="test"/>
+	<property name="lib" value="lib"/>
+	<property name="build" value="build"/>
+	<property name="testbuild" value="testbuild"/>
+	<property name="report" value="report"/>
+	<property name="report-xml" value="${report}/xml"/>
+	<property name="report-html" value="${report}/html"/>
+	
+	<path id="classpath.test">
+		<fileset dir="${lib}">
+			<include name="**/*.jar"/>
+		</fileset>
+		<pathelement path="${build}"/>
+		<pathelement path="${testbuild}"/>
+	</path>
+	
+	<target name="init">
+		<echo>开始创建目录</echo>
+		<mkdir dir="${build}"/>
+		<mkdir dir="${testbuild}"/>
+		<mkdir dir="${report}"/>
+	</target>
+	<target name="compile">
+		<javac srcdir="${src}" destdir="${build}"/>
+	</target>
+	
+	<target name="test-compile" depends="compile">
+		<javac srcdir="${test}" sectdir="${testbuild}">
+			<classpath refid="classpath.test"/>
+		</javac>
+	</target>
+	
+	<target name="run-test" depends="test-compile">
+		<mkdir dir="${report-xml}"/>
+		<mkdir dir="${report-html}"/>
+		<junit printsummary="on" failureproperty="test_fail">
+			<classpath refid="classpath.test"/>
+			<formatter type="xml"/>
+			<batchtest todir="${report-xml}">
+				<fileset dir="${test}" include="**/*.java"/>
+			</batchtest>
+		</junit>
+		<junitreport todir="${report-html}">
+			<fileset dir="${report-xml}" include="**/*.xml"/>
+			<report format="frames" todir="${report-html}"/>
+		</junitreport>
+		<fail>
+			<condition>
+				<isset property="test_fail"/>
+			</condition>
+		</fail>
+	</target>
+
+</project>

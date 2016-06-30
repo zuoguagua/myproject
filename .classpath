@@ -2,6 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="poi"/>
+	<classpathentry kind="src" path="test"/>
 	<classpathentry kind="lib" path="lib/common-server.jar"/>
 	<classpathentry kind="lib" path="lib/commons-io-2.1.jar"/>
 	<classpathentry kind="lib" path="lib/commons-logging-1.1.jar"/>
